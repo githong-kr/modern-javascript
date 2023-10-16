@@ -8,4 +8,5 @@ if (true) {
   }
 }
 
+//* what will it show: "Hello", "John"?
 sayHi()

@@ -1,16 +1,16 @@
 function Counter() {
-  let count = 0;
+  let count = 0
 
-  this.up = function() {
-    return ++count;
-  };
-  this.down = function() {
-    return --count;
-  };
+  this.up = function () {
+    return ++count
+  }
+  this.down = function () {
+    return --count
+  }
 }
 
-let counter = new Counter();
+let counter = new Counter()
 
-console.log( counter.up() ); // ?
-console.log( counter.up() ); // ?
-console.log( counter.down() ); // ?
+console.log(counter.up()) //* ?
+console.log(counter.up()) //* ?
+console.log(counter.down()) //* ?

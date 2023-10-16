@@ -12,4 +12,5 @@ let name = 'John'
 let work = makeWorker()
 
 // call it
-work() // what will it show?
+//* what will it show?
+work()

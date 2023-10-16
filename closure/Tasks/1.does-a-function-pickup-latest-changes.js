@@ -6,4 +6,5 @@ function sayHi() {
 
 name = 'Pete'
 
-sayHi() // what will it show: "John" or "Pete"?
+//* what will it show: "John" or "Pete"?
+sayHi()
