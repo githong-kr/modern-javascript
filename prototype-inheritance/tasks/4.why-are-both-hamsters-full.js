@@ -22,3 +22,8 @@ console.log(speedy.stomach) // apple
 
 // This one also has it, why? fix please.
 console.log(lazy.stomach) // apple
+
+//* because if speedy.eat('apple) is called, javacript engine try to find this(=speedy).stomach property
+//* but there is no stomach property in speedy.
+//* so javacript engine try to find the stomach property in prototype(=hamster)
+//* there it is! as the result, hamster.stomach.push('apple') is run
